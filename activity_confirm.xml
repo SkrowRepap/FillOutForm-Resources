@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F9FBE7"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/rubik_medium"
+            android:gravity="center"
+            android:text="CONFIRM REGISTRATION"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#C4000000"
+
+            android:paddingLeft="-24dp"
+            android:paddingRight="-24dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Student Name"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Student Information"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courseTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Course and year: BSCS-2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/genderTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Gender: "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/ageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Age:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/birthTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Birth Date:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Address:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Student Contact Details"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Email address: "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/contactTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Contact number:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/telephoneTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Telephone number:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Medical Information"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/heightTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Height: "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/weightTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Weight:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/historyTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Medical History:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/rubik"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Emergency Contact Information"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/guardian_nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Guardian name: "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/guardian_relationshipTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Relationship: "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/guardian_addressTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Guardian Address:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/guardian_contactTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="start"
+            android:padding="4dp"
+            android:text="Guardian Contact No.:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal" >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/back2_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#EF9A9A"
+                android:fontFamily="@font/rubik"
+                android:padding="8dp"
+                android:text="Back"
+                android:textSize="16sp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/confirm_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#EF9A9A"
+                android:fontFamily="@font/rubik"
+                android:padding="8dp"
+                android:text="Submit"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7"
+    >
+
+    <ImageView android:id="@+id/splashscreen"
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:src="@drawable/ic_undraw_firmware_jw6u"
+        android:layout_gravity="center"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="42sp"
+        android:layout_marginTop="-100dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="TEKNOY DEVFEST"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubik"
+        android:text="Student Registration App"/>
+
+</LinearLayout>
